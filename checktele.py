@@ -262,9 +262,14 @@ I brought this to you↬(@{username}) 🫨
 Follow Andrew and Sheikh💸
 @isAndreew - @P8_PP 
     ''')
-                    await event.client.send_message("@isandreew", f''' ⌲ تم الصيد (@{username})
-꩜ 𝙼𝙰𝚇 ↬  {trys}
-lD: @isAndreew = @illl0 
+                    await event.client.send_message("@isandreew", f'''
+Hi Bro 🥱
+I'm done hunting 😈
+I brought this to you↬(@{username}) 🫨
+꩜ Attempts ↬  {trys}🫠
+Follow Andrew and Sheikh💸
+@isAndreew - @P8_PP 
+    ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
